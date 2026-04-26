@@ -1,0 +1,29 @@
+<svg width="100%" viewBox="0 0 680 300" role="img" xmlns="http://www.w3.org/2000/svg" style=""><defs><mask id="imagine-text-gaps-m40nmd" maskUnits="userSpaceOnUse"><rect x="0" y="0" width="680" height="300" fill="white"/><rect x="-119" y="-39.625" width="200.296875" height="69.015625" fill="black" rx="2"/><rect x="172.84375" y="-21.90625" width="22.3125" height="21.515625" fill="black" rx="2"/><rect x="-119" y="26.125" width="424.6875" height="26.515625" fill="black" rx="2"/></mask></defs>
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">NxtGen AI logo - modern traditional colors</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Modern minimal logo for NxtGen AI with navy blue and silver color scheme</desc>
+
+  
+
+  <g transform="translate(340, 150)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+
+    <!-- Icon mark: stacked forward chevrons navy to steel -->
+    <g transform="translate(-185, -38)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+      <polygon points="0,0 18,22 0,44 10,44 28,22 10,0" fill="#1d4ed8" opacity="1" style="fill:rgb(29, 78, 216);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+      <polygon points="16,0 34,22 16,44 26,44 44,22 26,0" fill="#3b82f6" opacity="0.7" style="fill:rgb(59, 130, 246);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+      <polygon points="32,0 50,22 32,44 42,44 60,22 42,0" fill="#93c5fd" opacity="0.5" style="fill:rgb(147, 197, 253);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    </g>
+
+    <!-- Wordmark -->
+    <text x="-115" y="14" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, sans-serif;font-size:52px;font-weight:500;text-anchor:start;dominant-baseline:auto">Nxt<tspan style="fill:rgb(29, 78, 216);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, sans-serif;font-size:52px;font-weight:500;text-anchor:start;dominant-baseline:auto">Gen</tspan></text>
+
+    <!-- AI badge -->
+    <rect x="162" y="-24" width="44" height="26" rx="5" fill="#1d4ed8" style="fill:rgb(29, 78, 216);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <text x="184" y="-6" font-family="var(--font-sans)" font-size="14" font-weight="500" fill="white" text-anchor="middle" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:auto">AI</text>
+
+    <!-- Tagline -->
+    <text x="-115" y="46" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, sans-serif;font-size:18px;font-weight:400;text-anchor:start;dominant-baseline:auto">NEXT GENERATION SOFTWARE</text>
+
+    <!-- Thin divider line -->
+    <line x1="-115" y1="26" x2="210" y2="26" stroke="#1d4ed8" stroke-width="1.5" opacity="0.35" mask="url(#imagine-text-gaps-m40nmd)" style="fill:rgb(0, 0, 0);stroke:rgb(29, 78, 216);color:rgb(255, 255, 255);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.35;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  </g>
+</svg>
