@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>NxtGen AI — Lead Generation for Local Businesses</title>
-    <!-- Meta Pixel Code -->
+  <!-- Meta Pixel Code -->
   <script>
     !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
     n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
@@ -17,7 +17,6 @@
   <noscript><img height="1" width="1" style="display:none"
     src="https://www.facebook.com/tr?id=1491828805786177&ev=PageView&noscript=1"/></noscript>
   <!-- End Meta Pixel Code -->
-
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -257,20 +256,21 @@
       to   { transform: translateX(-50%); }
     }
 
-    /* ── STATS ── */
+    /* ── VALUE PROPS ── */
     .stats-section { background: var(--paper); padding: 72px 5vw; border-bottom: 1px solid var(--border); }
     .stats-grid {
       display: grid; grid-template-columns: repeat(4, 1fr);
       gap: 1px; background: var(--border);
       border: 1px solid var(--border); border-radius: 16px; overflow: hidden;
     }
-    .stat-cell { background: #fff; padding: 2.5rem 2rem; text-align: center; }
-    .stat-num {
-      font-size: clamp(2.2rem, 4vw, 3.5rem);
-      font-weight: 900; color: var(--ink); letter-spacing: -.04em; line-height: 1;
+    .stat-cell {
+      background: #fff; padding: 2.5rem 2rem; text-align: center;
+      transition: background .2s;
     }
-    .stat-num sup { font-size: 45%; color: var(--blue); vertical-align: super; }
-    .stat-label { margin-top: .5rem; font-size: .82rem; color: var(--gray); font-weight: 500; }
+    .stat-cell:hover { background: var(--blue-light); }
+    .prop-icon { font-size: 2rem; display: block; margin-bottom: .75rem; }
+    .prop-title { font-size: 1.05rem; font-weight: 800; color: var(--ink); margin-bottom: .35rem; }
+    .stat-label { font-size: .82rem; color: var(--gray); font-weight: 500; }
 
     /* ── SCROLL REVEAL ── */
     .reveal {
@@ -716,6 +716,100 @@
       to   { opacity: 1; transform: translateY(0) scale(1); }
     }
 
+    /* ── AI RECEPTIONIST ── */
+    .ai-section {
+      background: var(--dark); padding: 96px 5vw;
+      position: relative; overflow: hidden;
+    }
+    .ai-section .section-h2 { color: #fff; max-width: 540px; }
+    .ai-section .section-desc { color: #8892A4; margin-bottom: 0; }
+    .ai-split {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 5rem; align-items: center; position: relative; z-index: 1;
+    }
+    .ai-features {
+      list-style: none; display: flex; flex-direction: column; gap: .85rem;
+      margin-top: 1.75rem;
+    }
+    .ai-features li {
+      display: flex; align-items: flex-start; gap: .75rem;
+      color: #94A3B8; font-size: .95rem; line-height: 1.5;
+    }
+    .ai-features li .ck { color: #22D3EE; font-weight: 800; flex-shrink: 0; margin-top: .1rem; }
+    .ai-cta {
+      display: inline-flex; align-items: center; gap: .5rem;
+      margin-top: 2.25rem;
+      background: rgba(34,211,238,.12); border: 1px solid rgba(34,211,238,.3);
+      color: #22D3EE; padding: .8rem 1.75rem; border-radius: 8px;
+      font-size: .95rem; font-weight: 700; text-decoration: none;
+      transition: background .2s, transform .15s, box-shadow .2s;
+    }
+    .ai-cta:hover {
+      background: rgba(34,211,238,.2); transform: translateY(-2px);
+      box-shadow: 0 8px 28px rgba(34,211,238,.2);
+    }
+    /* Phone mock */
+    .phone-mock {
+      background: #0b0f1d;
+      border: 1px solid rgba(34,211,238,.2);
+      border-radius: 24px; padding: 2rem;
+      max-width: 380px; margin: 0 auto;
+      box-shadow: 0 0 80px rgba(34,211,238,.07), 0 32px 80px rgba(0,0,0,.45);
+    }
+    .phone-header {
+      display: flex; justify-content: space-between; align-items: center;
+      margin-bottom: 1.5rem; padding-bottom: 1rem;
+      border-bottom: 1px solid rgba(255,255,255,.06);
+    }
+    .ph-time { font-size: .8rem; color: #64748B; font-weight: 600; }
+    .ph-badge {
+      font-size: .68rem; font-weight: 800; letter-spacing: .08em;
+      text-transform: uppercase; color: #22D3EE;
+      background: rgba(34,211,238,.1); border: 1px solid rgba(34,211,238,.25);
+      border-radius: 4px; padding: .18rem .55rem;
+    }
+    .ph-caller { text-align: center; margin-bottom: 1.5rem; }
+    .ph-avatar {
+      width: 56px; height: 56px; border-radius: 50%;
+      background: rgba(255,255,255,.05); border: 1px solid rgba(255,255,255,.1);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.4rem; margin: 0 auto .6rem;
+    }
+    .ph-name { font-size: .95rem; font-weight: 700; color: #fff; }
+    .ph-sub  { font-size: .75rem; color: #64748B; margin-top: .15rem; }
+    .ph-status {
+      display: flex; align-items: center; gap: .5rem; justify-content: center;
+      background: rgba(34,211,238,.07); border: 1px solid rgba(34,211,238,.18);
+      border-radius: 8px; padding: .5rem 1rem;
+      font-size: .78rem; font-weight: 700; color: #22D3EE;
+      margin-bottom: 1.25rem; letter-spacing: .02em;
+    }
+    .ph-dot {
+      width: 7px; height: 7px; border-radius: 50%; background: #22D3EE;
+      animation: pulse 1.5s ease-in-out infinite; flex-shrink: 0;
+    }
+    .ph-messages { display: flex; flex-direction: column; gap: .7rem; margin-bottom: 1.25rem; }
+    .ph-msg {
+      padding: .65rem .9rem; border-radius: 12px;
+      font-size: .8rem; line-height: 1.6; max-width: 88%;
+    }
+    .ph-msg.ai {
+      background: rgba(24,71,245,.18); border: 1px solid rgba(24,71,245,.22);
+      align-self: flex-start; color: #CBD5E1;
+      border-radius: 4px 12px 12px 12px;
+    }
+    .ph-msg.caller {
+      background: rgba(255,255,255,.05); border: 1px solid rgba(255,255,255,.07);
+      align-self: flex-end; color: #CBD5E1;
+      border-radius: 12px 4px 12px 12px;
+    }
+    .ph-footer {
+      text-align: center; font-size: .74rem; font-weight: 700;
+      color: #22D3EE; padding-top: 1rem;
+      border-top: 1px solid rgba(255,255,255,.05);
+    }
+    @media (max-width: 1024px) { .ai-split { grid-template-columns: 1fr; gap: 3rem; } }
+
     /* ── RESPONSIVE ── */
     @media (max-width: 1024px) {
       .hero { grid-template-columns: 1fr; }
@@ -812,47 +906,32 @@
     </div>
   </div>
 
-  <!-- STATS -->
+  <!-- VALUE PROPS -->
   <div class="stats-section reveal">
     <div class="stats-grid">
       <div class="stat-cell">
-        <div class="stat-num"><span class="count" data-target="14">0</span><sup>d</sup></div>
-        <div class="stat-label">Website Launch Guarantee</div>
+        <span class="prop-icon">🚀</span>
+        <div class="prop-title">Live in 14 Days</div>
+        <div class="stat-label">Your website and ads up and running fast — no delays</div>
       </div>
       <div class="stat-cell">
-        <div class="stat-num"><span class="count" data-target="3" data-decimal="0">0</span><sup>x</sup></div>
-        <div class="stat-label">Target ROI on Ad Spend</div>
+        <span class="prop-icon">🤝</span>
+        <div class="prop-title">No Long Contracts</div>
+        <div class="stat-label">Month-to-month. If we're not delivering, you can walk away</div>
       </div>
       <div class="stat-cell">
-        <div class="stat-num"><span class="count" data-target="100">0</span><sup>%</sup></div>
-        <div class="stat-label">Satisfaction Guaranteed</div>
+        <span class="prop-icon">✅</span>
+        <div class="prop-title">Done For You</div>
+        <div class="stat-label">We handle everything. You focus on the job, we fill your pipeline</div>
       </div>
       <div class="stat-cell">
-        <div class="stat-num" style="color:var(--blue);">$0</div>
-        <div class="stat-label">No Setup or Hidden Fees</div>
+        <span class="prop-icon">💰</span>
+        <div class="prop-title">No Hidden Fees</div>
+        <div class="stat-label">What you see is what you pay. Transparent pricing, always</div>
       </div>
     </div>
   </div>
 
-  <!-- RESULTS TICKER -->
-  <div class="results-ticker" aria-hidden="true">
-    <div class="results-track">
-      <span class="results-item">Roofing Co. <span class="metric">→ +340% more leads</span></span>
-      <span class="results-item">Solar Installer <span class="metric">→ 4.2x return on ad spend</span></span>
-      <span class="results-item">HVAC Company <span class="metric">→ $180k new revenue in 90 days</span></span>
-      <span class="results-item">Landscaper <span class="metric">→ 28 qualified leads/month</span></span>
-      <span class="results-item">Painting Co. <span class="metric">→ booked 3 months out</span></span>
-      <span class="results-item">Plumber <span class="metric">→ 2.1x revenue in 60 days</span></span>
-      <span class="results-item">Electrician <span class="metric">→ #1 on Google Maps locally</span></span>
-      <span class="results-item">Roofing Co. <span class="metric">→ +340% more leads</span></span>
-      <span class="results-item">Solar Installer <span class="metric">→ 4.2x return on ad spend</span></span>
-      <span class="results-item">HVAC Company <span class="metric">→ $180k new revenue in 90 days</span></span>
-      <span class="results-item">Landscaper <span class="metric">→ 28 qualified leads/month</span></span>
-      <span class="results-item">Painting Co. <span class="metric">→ booked 3 months out</span></span>
-      <span class="results-item">Plumber <span class="metric">→ 2.1x revenue in 60 days</span></span>
-      <span class="results-item">Electrician <span class="metric">→ #1 on Google Maps locally</span></span>
-    </div>
-  </div>
 
   <!-- SERVICES BENTO -->
   <section class="services-section reveal" id="services">
@@ -890,6 +969,56 @@
         <div class="card-icon-wrap">📍</div>
         <div class="card-title">Google Maps & Local SEO</div>
         <div class="card-desc">Get found when neighbors search your service. We optimize your Google profile and local rankings.</div>
+      </div>
+      <div class="bento-card">
+        <div class="card-tag" style="background:rgba(34,211,238,.1);color:#22D3EE;border-color:rgba(34,211,238,.25);">New Service</div>
+        <div class="card-icon-wrap" style="background:rgba(34,211,238,.1);border-color:rgba(34,211,238,.22);">🤖</div>
+        <div class="card-title">AI Receptionist</div>
+        <div class="card-desc">An AI that answers calls and messages 24/7 — nights, weekends, and holidays when your business is closed.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI RECEPTIONIST -->
+  <section class="ai-section reveal">
+    <canvas class="section-canvas" id="ai-canvas"></canvas>
+    <div class="section-orb" style="width:450px;height:450px;background:rgba(34,211,238,.07);top:-100px;right:5%;animation:drift2 20s ease-in-out infinite alternate;"></div>
+    <div class="section-orb" style="width:280px;height:280px;background:rgba(24,71,245,.14);bottom:-60px;left:3%;animation:drift1 15s ease-in-out infinite alternate;"></div>
+    <div class="ai-split">
+      <div style="position:relative;z-index:1;">
+        <div class="section-eyebrow" style="color:#22D3EE;">New Service</div>
+        <h2 class="section-h2">Your business, open 24/7 — even when you're not</h2>
+        <p class="section-desc" style="margin-top:.75rem;">Our AI Receptionist answers calls and messages for your business any hour of the day, any day of the week. Nights, weekends, holidays — it never sleeps and never misses a lead.</p>
+        <ul class="ai-features">
+          <li><span class="ck">✓</span> Available 24 hours, 7 days a week</li>
+          <li><span class="ck">✓</span> Covers after-hours when you're off the clock</li>
+          <li><span class="ck">✓</span> Set your own hours and custom responses</li>
+          <li><span class="ck">✓</span> Captures caller info and qualifies every lead</li>
+          <li><span class="ck">✓</span> Sounds natural — not robotic</li>
+        </ul>
+        <a href="#contact" class="ai-cta">📞 Ask About AI Receptionist</a>
+      </div>
+      <div style="position:relative;z-index:1;">
+        <div class="phone-mock">
+          <div class="phone-header">
+            <span class="ph-time">11:47 PM</span>
+            <span class="ph-badge">AI Receptionist Active</span>
+          </div>
+          <div class="ph-caller">
+            <div class="ph-avatar">📞</div>
+            <div class="ph-name">Unknown Caller</div>
+            <div class="ph-sub">Incoming lead — after hours</div>
+          </div>
+          <div class="ph-status">
+            <span class="ph-dot"></span> Answering now...
+          </div>
+          <div class="ph-messages">
+            <div class="ph-msg ai">Hi, thanks for calling! We're closed right now but I'm here to help. What service are you looking for?</div>
+            <div class="ph-msg caller">I need a roof inspection as soon as possible.</div>
+            <div class="ph-msg ai">Got it! Can I get your name and best number so our team can call you first thing in the morning?</div>
+          </div>
+          <div class="ph-footer">🔒 Lead captured — owner notified instantly</div>
+        </div>
       </div>
     </div>
   </section>
@@ -1277,6 +1406,7 @@
 
     initSectionStars('services-canvas', 3);
     initSectionStars('how-canvas', 3);
+    initSectionStars('ai-canvas', 3);
 
     // ── Always start at top on refresh ──
     history.scrollRestoration = 'manual';
